@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="image_display.js"></script>
+    <title>Image display</title>
+  </head>
+  <body onload="fetchData()">
+    <h1>Image display</h1>
+    <div id="container">
+      <div id="modal-container">
+        <button id="modal-cross" onclick="modalClose()">X</button>
+        <div id="image-wrapper">
+          <img id="modal-image" />
+          <h3 id="modal-heading"></h3>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
